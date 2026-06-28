@@ -1,0 +1,12 @@
+# Bỏ qua tất cả file dữ liệu và tài liệu office
+*.csv
+*.xlsx
+*.docx
+
+# Bỏ qua các file Model và data dump
+lgb_model
+xgb_model
+*.pkl
+
+# Bỏ qua file EDA nặng (file Jupyter Notebook)
+EDA.ipynb
